@@ -50,6 +50,7 @@ class Explorer extends JPanel implements ActionListener {
                 new MouseAdapter() {
                     public void mouseClicked(MouseEvent me) {
                         doMouseClicked(me);
+                        System.out.println();
                     }
                 });
         jtf.addActionListener(this);
@@ -70,6 +71,7 @@ class Explorer extends JPanel implements ActionListener {
                 new MouseAdapter() {
                     public void mouseClicked(MouseEvent me) {
                         doMouseClicked(me);
+                        
                     }
                 });
 
